@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(126, 186, 188);
+}
+
+.gallery {
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.gallery h1{
+    font-size: 35px;
+    color: rgb(6, 53, 54);
+    padding: 15px 0;
+}
+
+.gallery .photos img{
+    display: none;
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.gallery .photos img:first-child {
+    display: block;
+}
+
+.gallery button {
+    border: none;
+    border-radius: 4px;
+    background-color: cadetblue;
+    color: rgb(6, 53, 54);
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+
+
+
+
